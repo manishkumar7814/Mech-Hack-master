@@ -1,0 +1,37 @@
+.topfold{
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 12px;
+    padding: 12px 0px;
+    align-items: center;
+    
+}
+
+.home-topfold{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;  /*takes entire width available*/
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    border-radius: 12px;
+}
+
+.searchbar input{
+    width: 80%;
+    outline: none;
+    padding: 8px 0px;
+    border: none;
+    margin-left: 6px;
+    background-color: white;
+}
+
+.searchbar i{
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+}
